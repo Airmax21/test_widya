@@ -15,7 +15,7 @@ Ini adalah contoh aplikasi web full-stack menggunakan React untuk frontend dan N
 
 - Frontend: React.js
 - Backend: Node.js, Express.js
-- Database: [Pilihan Basis Data Anda]
+- Database: PostgreSQL
 - Penyajian: CSS, Bootstrap
 
 ## Memulai
