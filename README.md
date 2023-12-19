@@ -35,29 +35,30 @@ Ini adalah contoh aplikasi web full-stack menggunakan React untuk frontend dan N
    cd test_widya
 2. Instal Dependesi:
 
-   
    ```bash
    cd client
    npm install
    cd ../server
    npm install
-3. Import database yang sudah di sediakan menggunakan PostgreSQL
-4. Jalankan server:
+3. Import database yang sudah di sediakan menggunakan PostgreSQL:
+
+   ```bash
+   psql -U <username> -W -h <ip_address> -d db_test_widya -f db_test_widya.sql
+5. Jalankan server:
 
    ```bash
    node index.js
-5. Jalankan client:
+6. Jalankan client:
 
    ```bash
    cd ../client
    npm start
-6. Buka browser dengan alamat http://localhost:3000
 
 ## Penggunaan Aplikasi
 
 ### Registrasi atau Login:
 
-1. Buka aplikasi di peramban web Anda.
+1. Buka aplikasi di peramban web Anda dengan alamat http://localhost:3000.
 2. Registrasi akun baru atau login jika sudah memiliki akun.
 
 ### Jelajahi Aplikasi:
